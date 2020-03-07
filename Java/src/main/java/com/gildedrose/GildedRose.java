@@ -11,7 +11,7 @@ class GildedRose {
 		for (int i = 0; i < items.length; i++) {
 				//first  i handled the update for the 3 exception product
 			
-			//strat by aged brie
+			//started by aged brie
 			if (items[i].name.equals("Aged Brie")) {
 				if (items[i].quality > 50) {
 					items[i].sellIn -= 1;
